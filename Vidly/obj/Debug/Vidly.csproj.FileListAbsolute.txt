@@ -59,3 +59,13 @@ C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.IntialModel.r
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubcribedToCustomer.resources
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMemberShipType.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateNameOnMembershipType.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangeNameToMembershipPackage.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthDateToCustomers.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangeBirthDateToNullable.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMembershipPackageOnMembershipType.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovie.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenre.resources

@@ -41,6 +41,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -108,12 +114,6 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.1.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
     </Reference>
@@ -180,9 +180,50 @@
     <Compile Include="Migrations\201806191912453_AddMembershipType.Designer.cs">
       <DependentUpon>201806191912453_AddMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806191926423_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\201806191926423_PopulateMembershipTypes.Designer.cs">
+      <DependentUpon>201806191926423_PopulateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806191938012_ApplyAnnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\201806191938012_ApplyAnnotationsToCustomerName.Designer.cs">
+      <DependentUpon>201806191938012_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806192048047_AddNameToMemberShipType.cs" />
+    <Compile Include="Migrations\201806192048047_AddNameToMemberShipType.Designer.cs">
+      <DependentUpon>201806192048047_AddNameToMemberShipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806192049113_UpdateNameOnMembershipType.cs" />
+    <Compile Include="Migrations\201806192049113_UpdateNameOnMembershipType.Designer.cs">
+      <DependentUpon>201806192049113_UpdateNameOnMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806201421429_ChangeNameToMembershipPackage.cs" />
+    <Compile Include="Migrations\201806201421429_ChangeNameToMembershipPackage.Designer.cs">
+      <DependentUpon>201806201421429_ChangeNameToMembershipPackage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806201708098_AddBirthDateToCustomers.cs" />
+    <Compile Include="Migrations\201806201708098_AddBirthDateToCustomers.Designer.cs">
+      <DependentUpon>201806201708098_AddBirthDateToCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806201723501_ChangeBirthDateToNullable.cs" />
+    <Compile Include="Migrations\201806201723501_ChangeBirthDateToNullable.Designer.cs">
+      <DependentUpon>201806201723501_ChangeBirthDateToNullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806201736043_UpdateMembershipPackageOnMembershipType.cs" />
+    <Compile Include="Migrations\201806201736043_UpdateMembershipPackageOnMembershipType.Designer.cs">
+      <DependentUpon>201806201736043_UpdateMembershipPackageOnMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806202346332_AddMovie.cs" />
+    <Compile Include="Migrations\201806202346332_AddMovie.Designer.cs">
+      <DependentUpon>201806202346332_AddMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806202347530_PopulateGenre.cs" />
+    <Compile Include="Migrations\201806202347530_PopulateGenre.Designer.cs">
+      <DependentUpon>201806202347530_PopulateGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -252,6 +293,7 @@
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <None Include="Views\Customers\Details.cshtml" />
     <None Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
     <None Include="Views\Movies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -273,6 +315,36 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806191912453_AddMembershipType.resx">
       <DependentUpon>201806191912453_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806191926423_PopulateMembershipTypes.resx">
+      <DependentUpon>201806191926423_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806191938012_ApplyAnnotationsToCustomerName.resx">
+      <DependentUpon>201806191938012_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806192048047_AddNameToMemberShipType.resx">
+      <DependentUpon>201806192048047_AddNameToMemberShipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806192049113_UpdateNameOnMembershipType.resx">
+      <DependentUpon>201806192049113_UpdateNameOnMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806201421429_ChangeNameToMembershipPackage.resx">
+      <DependentUpon>201806201421429_ChangeNameToMembershipPackage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806201708098_AddBirthDateToCustomers.resx">
+      <DependentUpon>201806201708098_AddBirthDateToCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806201723501_ChangeBirthDateToNullable.resx">
+      <DependentUpon>201806201723501_ChangeBirthDateToNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806201736043_UpdateMembershipPackageOnMembershipType.resx">
+      <DependentUpon>201806201736043_UpdateMembershipPackageOnMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806202346332_AddMovie.resx">
+      <DependentUpon>201806202346332_AddMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806202347530_PopulateGenre.resx">
+      <DependentUpon>201806202347530_PopulateGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
