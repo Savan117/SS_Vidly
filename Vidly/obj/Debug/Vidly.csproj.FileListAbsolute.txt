@@ -69,3 +69,4 @@ C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangeBirthDa
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMembershipPackageOnMembershipType.resources
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovie.resources
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenre.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.ModifyMoviesMadeFieldsRequired.resources
