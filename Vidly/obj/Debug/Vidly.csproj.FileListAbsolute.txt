@@ -2,6 +2,7 @@ C:\Users\Savan\source\repos\Vidly\Vidly\bin\Vidly.dll.config
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Vidly.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Vidly.pdb
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Antlr3.Runtime.dll
+C:\Users\Savan\source\repos\Vidly\Vidly\bin\AutoMapper.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\EntityFramework.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\EntityFramework.SqlServer.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Core.dll
@@ -19,7 +20,10 @@ C:\Users\Savan\source\repos\Vidly\Vidly\bin\Microsoft.Owin.Security.Twitter.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Newtonsoft.Json.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Owin.dll
+C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.Helpers.dll
+C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.Http.dll
+C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.Mvc.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.Optimization.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.Razor.dll
@@ -27,6 +31,12 @@ C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.WebPages.Deployment.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.WebPages.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.WebPages.Razor.dll
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\WebGrease.dll
+C:\Users\Savan\source\repos\Vidly\Vidly\bin\AutoMapper.xml
+C:\Users\Savan\source\repos\Vidly\Vidly\bin\EntityFramework.xml
+C:\Users\Savan\source\repos\Vidly\Vidly\bin\EntityFramework.SqlServer.xml
+C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.Http.xml
+C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.Helpers.xml
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.Mvc.xml
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.Optimization.xml
@@ -36,8 +46,6 @@ C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\System.Web.WebPages.Razor.xml
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Antlr3.Runtime.pdb
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Newtonsoft.Json.xml
-C:\Users\Savan\source\repos\Vidly\Vidly\bin\EntityFramework.xml
-C:\Users\Savan\source\repos\Vidly\Vidly\bin\EntityFramework.SqlServer.xml
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -50,13 +58,7 @@ C:\Users\Savan\source\repos\Vidly\Vidly\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Savan\source\repos\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
-C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
-C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
-C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.dll
-C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.IntialModel.resources
-C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubcribedToCustomer.resources
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
@@ -70,3 +72,12 @@ C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMembers
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovie.resources
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenre.resources
 C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.ModifyMoviesMadeFieldsRequired.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.dll
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.changedatatomembershiptypeid.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.fixdatatypeformembershiptypeIdinalltables.resources
+C:\Users\Savan\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypeTablesagain.resources
